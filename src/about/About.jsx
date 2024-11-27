@@ -56,7 +56,7 @@ const About = () => {
                 autoPlay
                 className="w-full h-auto rounded-lg shadow-lg"
               >
-                <source src="/path-to-your-video.mp4" type="video/mp4" />
+                <source src="/assets/jawlaVideo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <button
