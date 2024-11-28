@@ -2,10 +2,16 @@ import React from 'react';
 import Header from './Navbar';
 import { Button } from '../ui/button';
 import travelerImage from '../../assets/Traveller.png'; // Adjusted image path
+import herobg from '../../assets/Herobg.png';
 
 function Hero() {
   return (
-    <div id="home" className='bg-hero-bg bg-no-repeat bg-cover bg-center relative z-10 pb-6 overflow-x-hidden fade-in px-5'>
+    <div id="home" style={{
+      backgroundImage: `url(${herobg})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}className='relative z-10 pb-6 overflow-x-hidden fade-in px-5'>
       <div className='lg:flex max-w-[1400px] mx-auto justify-between items-center px-3 pt-12'>
         <div className='lg:w-2/5'>
           <h2 className='xl:text-[3rem] lg:text-5xl text-4xl lg:text-right text-center font-bold lg:leading-snug mb-5 text-[#181E4B]'>

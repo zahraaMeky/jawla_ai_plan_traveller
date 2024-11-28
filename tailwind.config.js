@@ -4,9 +4,9 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
-		backgroundImage: {
-			'hero-bg': "url('src/assets/Hero-bg.png')"
-		},
+		// backgroundImage: {
+		// 	'hero-bg': "url('/assets/Hero-bg.png')"
+		// },
 		  
   		borderRadius: {
   			lg: 'var(--radius)',

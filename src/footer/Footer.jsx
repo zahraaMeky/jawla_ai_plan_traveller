@@ -69,7 +69,7 @@ export const Footer = () => {
             </li>
             <li className="flex gap-2 items-center">
               <FaPhone className="text-[#DF6951]" />
-              <p className="text-right" dir="rtl">  ٥٥٥ ١٢٣ ٤٥٦ ٩٦٦+</p>
+              <p className="text-right" dir="rtl">   ١٢٣ ٤٥٦ ٥٥٥ ٩٦٦+</p>
 
               </li>
             <li className="flex gap-2 items-center">

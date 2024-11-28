@@ -2,6 +2,7 @@ import { useState } from "react";
 import { travelone } from "../assets/images/index";
 import { IoIosPlay } from "react-icons/io";
 import { IoIosClose } from "react-icons/io";
+import jawlaVideo from '../assets/jawlaVideo.mp4';
 
 const About = () => {
   const [isVideoPlayed, setIsVideoPlayed] = useState(false);
@@ -56,7 +57,7 @@ const About = () => {
                 autoPlay
                 className="w-full h-auto rounded-lg shadow-lg"
               >
-                <source src="/assets/jawlaVideo.mp4" type="video/mp4" />
+                <source src={jawlaVideo} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <button
